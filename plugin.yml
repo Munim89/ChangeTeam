@@ -1,0 +1,8 @@
+main: me.SilverBeast.ChangeTeam.Main
+name: ChangeTeam
+version: 1.0
+author: SilevrBeast
+api-version: 1.13
+
+commands:
+  ChangeTeam:
