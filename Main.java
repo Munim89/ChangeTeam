@@ -50,7 +50,7 @@ public class Main extends JavaPlugin implements Listener {
 	
 	@EventHandler()
 	public void onClick(InventoryClickEvent event) {
-		if (event.getInventory().equals(inv))
+		if (!event.getInventory().equals(inv))
 			return;
 		if (event.getCurrentItem() == null) return;
 		if (event.getCurrentItem().getItemMeta() == null) return;
